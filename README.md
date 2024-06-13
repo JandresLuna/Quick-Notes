@@ -23,16 +23,16 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 
 ### Clonar el Repositorio
 
-\```bash
+```bash
 git clone https://github.com/JandresLuna/Quick-Notes.git
 cd Quick-Notes
-\```
+```
 
 ### Instalar Dependencias
 
-\```bash
+```bash
 npm install
-\```
+```
 
 ## Configuración
 
@@ -45,13 +45,13 @@ npm install
 
    Crea un archivo `config.json` en el directorio raíz del proyecto con el siguiente formato:
 
-   \```json
+   ```json
    {
      "mongoURI": "mongodb+srv://<usuario>:<clave>@cluster0.mongodb.net/<tu-base-de-datos>?retryWrites=true&w=majority",
      "jwtSecret": "<tu-secret>",
      "port": 3000
    }
-   \```
+   ```
 
    - Reemplaza `<usuario>` y `<clave>` con tus credenciales de MongoDB.
    - Reemplaza `<tu-base-de-datos>` con el nombre de tu base de datos.
@@ -67,17 +67,17 @@ npm install
 
 ### Iniciar el Servidor
 
-\```bash
+```bash
 npm start
-\```
+```
 
 Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación en el navegador.
 
 ### Ejecución en Desarrollo
 
-\```bash
+```bash
 npm run dev
-\```
+```
 
 Esto utilizará nodemon para reiniciar automáticamente el servidor en caso de cambios en el código.
 
@@ -93,7 +93,7 @@ Las siguientes rutas están disponibles para interactuar con el backend:
 
 ### Ejemplo de Solicitud con Postman
 
-\```http
+```http
 POST /api/notes
 Content-Type: application/json
 Authorization: Bearer <tu-access-token>
@@ -102,7 +102,7 @@ Authorization: Bearer <tu-access-token>
   "title": "Nueva Nota",
   "content": "Contenido de la nota"
 }
-\```
+```
 
 ## Contribuciones
 
