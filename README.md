@@ -9,7 +9,6 @@ CRUD creado con React, TailwindCSS y MongoDB.
 - [Uso](#uso)
 - [API](#api)
 - [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 - [Contacto](#contacto)
 
 ## Instalación
